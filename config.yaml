@@ -1,0 +1,18 @@
+paths:
+  # Carpeta donde se almacenan los archivos de entrada (.tim, .par)
+  files_dir: tests/pytest/files
+
+  # Carpeta raíz donde se almacenan los logs de todas las pruebas
+  logs_dir: tests/pytest/logs
+
+  # Carpeta donde se guardan los gráficos generados por las funciones de visualización
+  plots_dir: tests/pytest/plots
+
+  # Carpeta donde se guardan los archivos .txt generados por funciones como crear_txt
+  txt_outputs_dir: tests/pytest/txt_outputs
+
+  # Carpeta donde se encuentran los archivos de pruebas unitarias
+  unit_tests_dir: tests/pytest/test_uni
+
+  # Carpeta donde se encuentran los archivos de pruebas de integración
+  integration_tests_dir: tests/pytest/test_int

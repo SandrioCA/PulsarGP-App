@@ -1,0 +1,30 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Archivos y carpetas de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de PyInstaller
+/build/
+/dist/
+*.spec
+
+# Carpetas de Editor/IDE
+.vscode/
+.idea/
+
+# Artefactos de Pruebas (Tests)
+.pytest_cache/
+/tests/pytest/logs/
+/tests/pytest/plots/
+/tests/pytest/txt_outputs/
+.coverage
+
+# Archivos de Sistema Operativo
+.DS_Store
+Thumbs.db
